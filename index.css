@@ -81,5 +81,107 @@ header{
     margin-right: 10px;
 }
 .plan-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: -48px;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 25px;
+}
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 100px;
+}
+.plan-item{
+    text-align: center;
+    margin: 10px 0px;
+}
+.plan-item img{
+    margin: 14px 0px;
+}
+.plan-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-desc{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.call-now{
+    width: 1297px;
+    height: 600px;
+    margin-left: 15%;
+    margin-top: 100px;
+
+}
+.callnow-content{
+    background: url("images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+.callnow-img{
+    position: absolute;
+
+}
+.callnow-content h1{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 60px;
+    left: 5%;
+    width: 450px;
+    border-radius: 10px;
+}
+.callnow-btn{
+    border-radius: 5px;
+    background: #FFF;
+    position: relative;
+    padding: 16px 31px;
+    font-size: 16px;
+    border: none;
+    top: 127px;
+    left: 5%;
+}
+.footer{
+    display: flex;
+    background-color: #151414;
+    align-items: center;
+    justify-content: space-around;
+    height: 577px;
+}
+.footer-column{
+    width: 500px;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-desc{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px;
+}
+.footer-column ul {
+
+}
+.footer-column ul li{
     
+}
+.subscribe-btn{
+
 }
