@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+/* banner styles */
+.banner{
+    text-align: right;
+    width: 502px;
+    padding: 135px 36px;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+.banner-title{
+    color: #151414;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+.banner-desc{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0px;
+}
+.primary-btn{
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 18px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.failure{
+    display: flex;
+    align-items: center;
+}
+.failure-img{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.failure-info{
+    width: 450px;
+    margin: 0px 165px;
+    margin-top: 18%;
+}
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-desc{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 32px 0px;
+}
+.failure-info > ul {
+    list-style: none;
+}
+.failure-info  ul li {
+    color: #444343;
+    padding: 11px 0px;
+}
+.failure .fa-check {
+    color: #16D887;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.plan-section{
+    
+}
